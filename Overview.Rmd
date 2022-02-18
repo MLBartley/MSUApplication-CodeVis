@@ -2,7 +2,9 @@
 title: "Job Application - Data Visuals and Code"
 author: "Meridith L. Bartley, PhD"
 date: "2/18/2022"
-output: rmarkdown::github_document
+output:
+  html_document:
+    keep_md: true
 runtime: shiny
 ---
 
@@ -37,7 +39,7 @@ load("All_24hr.Rdata")
 
 ```
 
-This document serves as application materials for the position of Data Manager/Scientist at Montana State University. It was compiled and submitted to the interview panel on 18 February, 2022. 
+This document serves as application materials for the position of Data Manager/Scientist at Montana State University. It was compiled and submitted to the interview panel on 18 February, 2022. Document materials are on [Github](https://github.com/MLBartley/MSUApplication-CodeVis) and it may be viewed online [here](https://mlbartley.shinyapps.io/Overview).
 
 # Samples of Data Visualization
 
@@ -566,7 +568,7 @@ options = list(height = 700)  )
 
 I also wanted to include something fun and not connected to any research! This figure was inspired by my favorite Dungeons and Dragons (DnD) podcast/show, Critical Role. This show features several voice actors (and improv geniuses!) playing years long DnD campaigns that stream live weekly. I have been watching the second campaign, "The Mighty Nein", and was inspired to create this heatmap of the use of the word "nein" throughout the many episodes. The interchangeable use of the homonyms "nein" and "nine" are used often during this campaign as both a running gag and the inspiration for the adventuring group's name (and title of this campaign), The Mighty Nein. This group typically contains 6 or 7 adventurers. Through the creation of this figure I was able to learn new R skills in web scraping of text and tables.
 
-Code used to obtain episode transcripts and create this visual has been included in `Code/MightyNein.Rmd`. This visual serves as a fun motivation to try out new skills in R, however it could be shared with other fans of this show or as a #TidyTuesday example on Twitter. 
+Code used to obtain episode transcripts and create this visual has been included in `Code/MightyNein.Rmd` available [here](https://github.com/MLBartley/MSUApplication-CodeVis/blob/main/Code/MightyNein.Rmd). This visual serves as a fun motivation to try out new skills in R, however it could be shared with other fans of this show or as a #TidyTuesday example on Twitter. 
 
 This work would not be possible without the availability of episode transcripts and I want to acknowledge the work of show fans in the creation of some of these transcripts available online. Transcripts of the first 42 episodes of Campaign 2 are found at Critical Role Transcripts. The CRTranscript team provided the captioning for the show through "Cornered" (2x53), when captioning was taken over by Critical Role itself using a professional transcription service.
 
