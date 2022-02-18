@@ -2,9 +2,7 @@
 title: "Job Application - Data Visuals and Code"
 author: "Meridith L. Bartley, PhD"
 date: "2/18/2022"
-output:
-  html_document:
-    df_print: paged
+output: rmarkdown::github_document
 runtime: shiny
 ---
 
